@@ -1,7 +1,7 @@
 /* default styles reset */
 ul {
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 
 li {
@@ -27,7 +27,6 @@ label {
 .header {
   width: 500px;
   margin: 0 auto;
-  display: block;
   text-align: right;
   display: flex;
   flex-direction: column;
@@ -50,7 +49,7 @@ label {
 .main {
   display: block;
   width: 500px;
-  margin: 0 auto 0;
+  margin: 0 auto;
 }
 
 .task {
@@ -66,7 +65,7 @@ label {
 
 .btn {
   background: none;
-  border: 0px;
+  border: 0;
   color: #888;
   font-size: 15px;
   width: 60px;
@@ -132,10 +131,6 @@ label {
   margin: 0 10px;
 }
 
-.item__input {
-  width: 226px;
-}
-
 .btn__image {
   height: 2em;
   transform: rotateZ(45deg);
@@ -154,6 +149,7 @@ label {
 
 /* Edit Task */
 .item__input {
+  width: 226px;
   display: none;
 }
 
